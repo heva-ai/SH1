@@ -92,7 +92,7 @@ with st.container():
         st.title(PAGE_TITLE)
 st.markdown("<br>", unsafe_allow_html=True)
 with st.container():
-    project_tab, team_tab, data_source = st.tabs(["  **About Project** ", "  **Active Team Contributors**  ","  **Data Sources** "])
+    project_tab, team_tab, data_source = st.tabs(["  **About Project** "])
     project_tab.markdown("<br>", unsafe_allow_html=True)
     project_tab.markdown(HOMEPAGE_CONTENT, unsafe_allow_html=True)
     team_tab.markdown("<br>", unsafe_allow_html=True)
