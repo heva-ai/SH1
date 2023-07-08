@@ -95,9 +95,3 @@ with st.container():
     project_tab, team_tab, data_source = st.tabs(["  **About Project** "])
     project_tab.markdown("<br>", unsafe_allow_html=True)
     project_tab.markdown(HOMEPAGE_CONTENT, unsafe_allow_html=True)
-    team_tab.markdown("<br>", unsafe_allow_html=True)
-    team_tab.markdown(HOMEPAGE_CHAPTERLEAD, unsafe_allow_html=True)
-    team_tab.markdown("<br>", unsafe_allow_html=True)
-    team_tab.markdown(HOMEPAGE_ACTIVE_MEMBERS, unsafe_allow_html=True)
-    data_source.markdown("<br>", unsafe_allow_html=True)
-    
