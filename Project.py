@@ -100,4 +100,4 @@ with st.container():
     team_tab.markdown("<br>", unsafe_allow_html=True)
     team_tab.markdown(HOMEPAGE_ACTIVE_MEMBERS, unsafe_allow_html=True)
     data_source.markdown("<br>", unsafe_allow_html=True)
-    data_source.markdown(DATA_SOURCE_CONTENT)
+    
