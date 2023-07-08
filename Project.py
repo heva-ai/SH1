@@ -83,15 +83,6 @@ With an accuracy rate of 81%, SH1 is effective at detecting deepfake facial imag
 SH1 holds great promise as a tool in the ongoing battle against AI-generated image manipulation. With its AI-powered investigation inspired by Sherlock Holmes, SH1 empowers users to identify and expose deepfake images, specifically those targeting individuals' faces. As SH1 continues to evolve, we can anticipate more advanced versions that will provide users with even better results, ensuring a safer and more trustworthy digital landscape for all.
 
 
-DATA_SOURCE_CONTENT='''
-### Data Sources / References
-
-The model is trained with datasets produced from the following original data sources:
-+ Guarnera, Luca, et al. "The Face Deepfake Detection Challenge." Journal of Imaging 8.10 (2022): 263.
-+ Guarnera, Luca, Oliver Giudice, and Sebastiano Battiato. "Fighting deepfake by exposing the convolutional traces on images." IEEE Access 8 (2020): 165085-165098.
-+ Giudice, Oliver, Luca Guarnera, and Sebastiano Battiato. "Fighting deepfakes by detecting gan dct anomalies." Journal of Imaging 7.8 (2021): 128.
-''' 
-
 with st.container():
     col1, col2 = st.columns([1,2], gap="small")
     with col1:
